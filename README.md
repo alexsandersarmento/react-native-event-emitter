@@ -49,32 +49,28 @@ notify('myEvent', 'param1', 'param2');
 ```
 
 
-### `removeListener(eventName: string, listener: (...params: any[]) => void)`
+### `removeListener(eventName: string)`
 
-Removes an event listener for the specified event name. The listener will no longer be called when the event is triggered.
+Removes an event listener for the specified event name.
 
 Example usage:
 
 ```javascript
 import { removeListener } from 'react-event-emmiter';
 
-const handleEvent = (param1, param2) => {
-  // Logic to handle the event
-};
-
-removeListener('myEvent', handleEvent);
+removeListener('myEvent');
 ```
 
-### `removeAllListeners(eventName: string)`
+### `removeAllListeners()`
 
-Removes all event listeners for the specified event name. No listener will be called when the event is triggered.
+Removes all event listeners.
 
 Example usage:
 
 ```javascript
 import { removeAllListeners } from 'react-event-emmiter';
 
-removeAllListeners('myEvent');
+removeAllListeners();
 ```
 
 ## Contribution
