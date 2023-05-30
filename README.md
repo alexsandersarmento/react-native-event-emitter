@@ -1,19 +1,19 @@
-# react-event-emitter
+# react-native-event-emitter
 
-**react-event-emitter** is a simple library for handling custom events in React Native applications.
+**react-native-event-emitter** is a simple library for handling custom events in React Native applications.
 
 ## Installation
 
 To install the library, you can run the following command:
 
 ```
-npm install react-event-emitter
+npm install react-native-event-emitter
 ```
 
 or
 
 ```
-yarn add react-event-emitter
+yarn add react-native-event-emitter
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ Adds an event listener for the specified event name. The listener will be called
 Example usage:
 
 ```javascript
-import { addListener } from 'react-event-emitter';
+import { addListener } from 'react-native-event-emitter';
 
 const handleEvent = (param1, param2) => {
   // Logic to handle the event
@@ -43,7 +43,7 @@ Triggers the event with the specified name, passing additional parameters. All r
 Example usage:
 
 ```javascript
-import { notify } from 'react-event-emitter';
+import { notify } from 'react-native-event-emitter';
 
 notify('myEvent', 'param1', 'param2');
 ```
@@ -56,7 +56,7 @@ Removes an event listener for the specified event name.
 Example usage:
 
 ```javascript
-import { removeListener } from 'react-event-emitter';
+import { removeListener } from 'react-native-event-emitter';
 
 removeListener('myEvent');
 ```
@@ -68,7 +68,7 @@ Removes all event listeners.
 Example usage:
 
 ```javascript
-import { removeAllListeners } from 'react-event-emitter';
+import { removeAllListeners } from 'react-native-event-emitter';
 
 removeAllListeners();
 ```
