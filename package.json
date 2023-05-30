@@ -1,6 +1,6 @@
 {
-  "name": "react-event-emmiter",
-  "version": "1.1.1",
+  "name": "react-event-emitter",
+  "version": "1.1.2",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -17,6 +17,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexsandersarmento/react-event-emmiter"
+    "url": "https://github.com/alexsandersarmento/react-event-emitter"
   }
 }
